@@ -24,6 +24,12 @@ class PostsController < ApplicationController
     end
   end
 
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to posts_path
+  end
+
   def create
     @post = Post.new(post_params)
     if @post.save
