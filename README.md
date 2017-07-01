@@ -1,5 +1,7 @@
 # README
 
+完成了12_in_12第二周作业blog
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
